@@ -7,4 +7,4 @@ phase:
 artifacts:
     type: zip
     files:
-        - NewSampleTemplate.yaml
+        - NewSamTemplate.yaml
