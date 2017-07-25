@@ -4,7 +4,7 @@ phases:
     install:
         commands:
             - npm install time
-            - aws cloudformation package --template-file samTeplate.yaml --s3-bucket sample-serverless-pipeline --output-template-file NewSamTemplate.yaml
+            - aws cloudformation package --template-file samTemplate.yaml --s3-bucket sample-serverless-pipeline --output-template-file NewSamTemplate.yaml
 
 artifacts:
     type: zip
