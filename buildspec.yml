@@ -1,5 +1,5 @@
 version: 0.1
-phase:
+phases:
     install:
         commands:
             - npm install time
